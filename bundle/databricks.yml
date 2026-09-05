@@ -38,7 +38,7 @@ targets:
     workspace:
       host: https://dbc-7719d447-7a09.cloud.databricks.com/
     variables:
-      stepright_catalog: uat
+      stepright_catalog: dev
 
   prod:
     workspace:
