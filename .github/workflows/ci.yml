@@ -52,7 +52,7 @@ jobs:
       # these same UAT-suffixed secrets cover both.
       DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST_UAT }}
       DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN_UAT }}
-      # DATABRICKS_WAREHOUSE_ID_UAT: ${{ secrets.DATABRICKS_WAREHOUSE_ID_UAT }}
+      DATABRICKS_WAREHOUSE_ID_UAT: ${{ secrets.DATABRICKS_WAREHOUSE_ID_UAT }}
     steps:
       - uses: actions/checkout@v4
  
